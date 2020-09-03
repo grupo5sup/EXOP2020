@@ -1,0 +1,137 @@
+* {
+	margin:0;
+	padding:0;
+}
+body{
+background:#FFD2DB;
+}
+.header{
+height:11vh;
+background:#C7E869;
+overflow: none;
+}
+.logo{
+padding:2px;
+height:65px;
+}
+.navbar-style{
+box-shadow: 0 5px 10px #F6C4E8;
+}
+details {
+    padding: 15px;
+    background-color: #FFEDC0 ;
+    margin-bottom: 10px;
+	border-radius:20px;
+}
+summary {
+    outline: none;
+    font-size: 1.15em;
+	border-radius:20px;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+	border-radius:20px;
+}
+
+summary:after {
+    background: #ABEAAB;
+    border-color: #ABEAAB;
+    border-radius: 15px;
+    content: "+";
+    color: black;
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin: -2px 10px 0 0;
+    padding: 1px 0 3px 0;
+    text-align: center;
+    width: 30px;
+	
+}
+
+details[open] summary:after {
+    content: "-";
+}
+
+.big-text{
+font-size: 50px;
+margin:20px 0;
+color:#79CB79;
+}
+a.btn{
+margin:30px 10px;
+width:150px;
+padding:10px;
+border-radius:20px;
+}
+a.btn-first{
+background-color:#ABEAAB;
+color:#fff;
+}
+a.btn-second{
+
+background-color:#ABEAAB;
+color:#fff;
+}
+a.btn:hover{
+background:#ABEAAB;
+border:none;
+color:#fff;
+box-shadow:5px 5px 10px #955182;
+transition:0.3s;
+}
+.banner-info{
+margin-top: 20px 0;
+
+}
+.banner-image{
+margin-top: 50px 0;
+}
+.banner-image2{
+margin-top: 100px 0;
+background:#ABEAAB ;
+}
+
+.icon-bar{
+background:#856B26 ;
+}
+@media screen and (max-width: 600px) {
+       table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           background: #f0f0f0;
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+}
+
+footer {
+  position: none;
+  width: 100%;
+  background-color: #C7E869 ;
+  color: #000000;
+  text-align: center;
+  overflow: hidden;
+}
+img.footer{
+position:none;
+}
+
+
